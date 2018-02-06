@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  rabbit:
+    build: .
+    image: dannyben/rabbit
+    ports:
+    - '5672:5672'
+    - '5000:15672'
